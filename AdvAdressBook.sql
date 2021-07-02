@@ -51,3 +51,8 @@ UPDATE AddressBook set Type = 'Friend' where firstName='Santosh';
 
 --UC10-Ability to get number of contact persons
 select COUNT(Type) from AddressBook;
+
+--UC11-Adding a person in addressbook both family and friend
+insert into AddressBook values
+('Aditya','Mishra','Nuapatna','bhubaneswar','Odisha',754035,'+91 8249775974','adi@8gmail.com','friend and family');
+
