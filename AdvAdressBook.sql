@@ -42,3 +42,9 @@ select COUNT (State) from AddressBook;
 
 --UC8-Retrieve entries sorted alphabetically by person name
 select * from AddressBook where City= 'Cuttack' order by firstName
+
+--UC9-Add name and type
+ALTER Table Addressbook Add 
+Type varchar(30)
+UPDATE AddressBook set Type = 'Family' where firstname='Pradeep';
+UPDATE AddressBook set Type = 'Friend' where firstName='Santosh';
