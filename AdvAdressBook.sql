@@ -23,3 +23,8 @@ Insert into AddressBook values
 
 --To see the created table
 Select * from  AddressBook; 
+
+--UC4-Editing contactlist Using Name
+update AddressBook set address ='Bhubaneswar' where firstname='Santosh';
+update AddressBook set state='WestBengal' where firstname='Pradeep';
+Update AddressBook set city='khordha' where firstname='Anjaneya';
