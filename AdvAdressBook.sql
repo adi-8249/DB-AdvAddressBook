@@ -39,3 +39,6 @@ select * from AddressBook where state='Odisha';
 --UC7-Ability to understand the size of address book using city and state
 select COUNT (City) from AddressBook;
 select COUNT (State) from AddressBook;
+
+--UC8-Retrieve entries sorted alphabetically by person name
+select * from AddressBook where City= 'Cuttack' order by firstName
