@@ -48,3 +48,6 @@ ALTER Table Addressbook Add
 Type varchar(30)
 UPDATE AddressBook set Type = 'Family' where firstname='Pradeep';
 UPDATE AddressBook set Type = 'Friend' where firstName='Santosh';
+
+--UC10-Ability to get number of contact persons
+select COUNT(Type) from AddressBook;
