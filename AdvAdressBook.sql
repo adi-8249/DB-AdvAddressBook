@@ -28,3 +28,6 @@ Select * from  AddressBook;
 update AddressBook set address ='Bhubaneswar' where firstname='Santosh';
 update AddressBook set state='WestBengal' where firstname='Pradeep';
 Update AddressBook set city='khordha' where firstname='Anjaneya';
+
+--UC5-Deleting a person Using Person name
+delete from AddressBook where firstname='Anjaneya';
