@@ -31,3 +31,7 @@ Update AddressBook set city='khordha' where firstname='Anjaneya';
 
 --UC5-Deleting a person Using Person name
 delete from AddressBook where firstname='Anjaneya';
+
+--UC6-Retrieve person belonging city or state
+select * from AddressBook where city='Cuttack';
+select * from AddressBook where state='Odisha';
