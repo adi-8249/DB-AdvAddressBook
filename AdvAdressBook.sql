@@ -35,3 +35,7 @@ delete from AddressBook where firstname='Anjaneya';
 --UC6-Retrieve person belonging city or state
 select * from AddressBook where city='Cuttack';
 select * from AddressBook where state='Odisha';
+
+--UC7-Ability to understand the size of address book using city and state
+select COUNT (City) from AddressBook;
+select COUNT (State) from AddressBook;
